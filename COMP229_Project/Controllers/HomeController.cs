@@ -24,7 +24,7 @@ namespace COMP229_Project.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page. HELLO, world!!!";
+            ViewData["Message"] = "Your contact page. HELLO, world from Sahba!!!";
 
             return View();
         }
