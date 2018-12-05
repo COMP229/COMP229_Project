@@ -34,17 +34,56 @@
     }
 }
 /* Logan */
+.home {
+    float: none;
+}
+.home01 {
+    float: none;
+    margin: auto;
+    width: 80%;
+}
+.home02 {
+/*  display: flex; */
+    border-radius: 5em 0em;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    float: left;
+    vertical-align: middle;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 20em;
+    height: 20em;
+    text-align: center;
+    cursor: pointer;
+}
+.home02 a p {
+    font-weight: bold;
+    font-size: 2em;
+}
+.home02 a {
+    text-decoration: none;
+    color: black;
+}
+.home02:hover {
+    background-color: yellow;
+}
 #myPhoneImage {
-    max-width: 5em;
+    width: 10em;
 }
-makBookImage {
-    max-width: 5em;
+#makBookImage {
+    width: 10em;
 }
-myWatchImage {
-    max-width: 5em;
+#myWatchImage {
+    width: 10em;
 }
-myPadImage {
-    max-width: 5em;
+#myPadImage {
+    width: 10em;
+}
+footer {
+    padding-top: 2em;
+    border-top: 2px double black;
 }
 /* Sehaj */
 

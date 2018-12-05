@@ -2,13 +2,33 @@
     ViewData["Title"] = "Banana";
 }
 
-<div>
-    <img id="myPhoneImage" src="~/images/myPhone.jpg" />
-    <p>myPhone</p>
-    <img id="makBookImage" src="~/images/makBook.jpg" />
-    <p>makBook</p>
-    <img id="myWatchImage" src="~/images/myWatch.jpg" />
-    <p>myWatch</p>
-    <img id="myPadImage" src="~/images/myPad.jpg" />
-    <p>myPad</p>
+<div class="home">
+    <div class="home01">
+        <div class="home02">
+            <a asp-area="" asp-controller="Home" asp-action="myPhone">
+                <img id="myPhoneImage" src="~/images/myPhone.jpg" />
+                <p>myPhone</p>
+            </a>
+        </div>
+        <div class="home02">
+            <a asp-area="" asp-controller="Home" asp-action="makBook">
+                <img id="makBookImage" src="~/images/makBook.jpg" />
+                <p>makBook</p>
+            </a>
+        </div>
+    </div>
+    <div class="home01">
+        <div class="home02">
+            <a asp-area="" asp-controller="Home" asp-action="myWatch">
+                <img id="myWatchImage" src="~/images/myWatch.jpg" />
+                <p>myWatch</p>
+            </a>
+        </div>
+        <div class="home02">
+            <a asp-area="" asp-controller="Home" asp-action="myPad">
+                <img id="myPadImage" src="~/images/myPad.png" />
+                <p>myPad</p>
+            </a>
+        </div>
+    </div>
 </div>
