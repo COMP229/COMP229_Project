@@ -2,7 +2,24 @@
     padding-top: 50px;
     padding-bottom: 20px;
 }
-
+footer {
+    padding-top: 2em;
+    border-top: 2px double black;
+}
+#NavTitle {
+    color: yellow;
+}
+#NavTitle:hover {
+    opacity: 0.5;
+}
+.NavBanadaImg {
+    position: absolute;
+    top: .6em;
+    left: 6.5em;
+    float: left;
+    margin-right: .5em;
+    width: 1.5em;
+}
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -33,7 +50,8 @@
         display: none;
     }
 }
-/* Logan */
+/****************************************** Logan ******************************************/
+/* Home Page */
 .home {
     float: none;
 }
@@ -81,12 +99,51 @@
 #myPadImage {
     width: 10em;
 }
-footer {
-    padding-top: 2em;
-    border-top: 2px double black;
+
+/* About Banana Page */
+.AboutTitle {
+    font-weight: bold;
+    font-size: 3em;
 }
-/* Sehaj */
+.AboutMessage {
+    font-size: 2em;
+    color: yellow;
+    text-shadow: 2px 2px 8px black;
+}
+.AboutBanadaImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 2em;
+}
+.AboutBananaTxt {
+    font-size: 1.5em;
+}
+/* Contact Banana Page */
+.ContactBanadaImg {
+    border: .5em solid yellow;
+    border-radius: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1em;
+}
+.ContactTitle {
+    font-weight: bold;
+    font-size: 3em;
+}
+.ContactMessage {
+    font-size: 2em;
+    color: yellow;
+    text-shadow: 2px 2px 8px black;
+}
+.ContactText {
+    font-size: 1.5em;
+}
+/****************************************** Sehaj ******************************************/
 
-/* Arshdeep */
+/****************************************** Arshdeep ******************************************/
 
-/* Sahba */
+/****************************************** Sahba ******************************************/

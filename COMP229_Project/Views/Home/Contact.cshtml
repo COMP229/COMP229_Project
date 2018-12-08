@@ -1,17 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Contact";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+<h2 class="ContactTitle">@ViewData["Title"]</h2>
+<h3 class="ContactMessage">@ViewData["Message"]</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<img class="ContactBanadaImg" src="~/images/banana_building.jpg" />
 
-<address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="ContactText">
+    <address>
+        655 Bay Street, Suite 2100<br />
+        Toronto, ON M5G 1E5<br />
+        <abbr title="Phone">Phone:</abbr>
+        (416)888-8888
+    </address>
+
+    <address>
+        <strong>Support:</strong> <a href="mailto:Support@banana.com">Support@banana.com</a><br />
+        <strong>Marketing:</strong> <a href="mailto:Marketing@banana.com">Marketing@banana.com</a>
+    </address>
+</div>

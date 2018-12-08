@@ -17,14 +17,14 @@ namespace COMP229_Project.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "What is Banada?";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page. HELLO, world from Sahba!!!";
+            ViewData["Message"] = "How to contact Banana?";
 
             return View();
         }
