@@ -34,6 +34,12 @@ namespace COMP229_Project.Controllers
 
             return View();
         }
+        public IActionResult myWatch()
+        {
+            ViewData["Message"] = "How to contact Banana?";
+
+            return View();
+        }
 
         public IActionResult Error()
         {
