@@ -80,6 +80,7 @@ sup {
 sup {
   top: -.5em;
 }
+
 sub {
   bottom: -.25em;
 }
@@ -3112,6 +3113,7 @@ fieldset[disabled] .btn-default.focus {
 .btn-default .badge {
   color: #fff;
   background-color: #333;
+  text-align:center
 }
 .btn-primary {
   color: #fff;
